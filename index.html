@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
+
     <head>
         <title>Hello HTML Universe!</title>
+        <script src="C:/repos/html/index.html"></script>
+        <link href="css/index.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <h1>My first HTML page.</h1>
         <h3>h3 tag!!!!! WOW</h3>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Please don't click this</a><br>
+        <hr>
 
         <table>
             <thead>
@@ -55,7 +59,7 @@
             </tbody>
             <tfoot></tfoot>
         </table>
-
+        <hr>
         <p>
             This is paragraph 1
         </p>
@@ -79,8 +83,78 @@
             <span>Address 2</span>
         </address>
 
-        <p>multi-cursor with spaces by alt-clicking</p>
+        <div>
+            <h3>Using the <code>input</code> tag</h3>
+            <input size="40" type="text" value="This is the text in textbox">
+            <br>
+            <input type="number" value="7">
+            <br>
+            Password: <input type="password">
+        </div>
+        <div>
+            <button onclick="displayInputValue('pwd')">Click me</button>
+        </div>
+        <div>
+            <h3>Drop-down lists</h3>
+            <select >
+                <option value="100">Option 1</option>
+                <option value="200">Option 2</option>
+                <option value="potato">Option 3</option>
+            </select>
+        </div>
 
+        <p>multi-cursor with spaces by alt-clicking</p><br>
+        <hr>
+        <p>use ctrl + / with a line highlighted to comment/uncomment a line</p>
+        <p class="twicethesize orange">List of Technologies</p>
+        <ol>
+            <li>first item</li>
+            <li class="orange">Ordered list</li>
+            <li>auto-numbers</li>
+        </ol>
+        <ul>
+            <li>first item</li>
+            <li>unordered list</li>
+            <li>can change bullet points</li>
+        </ul>
 
+        <div>
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Module</b></th>
+                    <th><b>Description</b></th>
+                    <th><b>Thoughts</b></th>
+                </tr>
+            </thead>            
+            <tbody>                
+                <tr>
+                    <td>Git/GitHub</td>
+                    <td>Version control program</td>
+                    <td>Very great</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Database CRUD program</td>
+                    <td>How wonderful</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>General purpose programming language</td>
+                    <td>Such lovely structure</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS/JS</td>
+                    <td>Websites n stuff</td>
+                    <td>Good</td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>Front end stuff?</td>
+                    <td>So many corners</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
     </body>
 </html>

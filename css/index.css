@@ -1,0 +1,16 @@
+            /* Styling by tag name */
+            ol { 
+                color:blue;
+            }
+            #green {
+                color:green;
+            }
+            .thediv {
+                color:red;
+            }
+            .orange {
+                color:orange;
+            }
+            .twicethesize {
+                font-size: 2em;
+            }
