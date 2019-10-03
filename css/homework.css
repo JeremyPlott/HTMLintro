@@ -1,0 +1,26 @@
+/* font-family:"Verdana, Arial, sans-serif" */
+body {
+    font: normal normal normal 12pt/13.5pt Arial, sans-serif;
+}
+.techtable {
+    width: 50%;
+    margin: 0 auto;
+}
+table#tech tr td {
+    width: 33%;    
+    text-align: center;
+}
+table#tech, tr, td {
+    border: 1px solid cadetblue;    
+    border-collapse: collapse;
+}
+.bold {
+    font-weight: bold;
+}
+#div1 {
+    border: 1px solid red;   
+    margin-top: 10px; 
+}
+#span1 {
+    border: 1px solid blue;    
+}
